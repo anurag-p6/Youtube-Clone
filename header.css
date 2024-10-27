@@ -21,8 +21,20 @@
 
 .hamburger-menu {
     height: 24px;
+    padding: 3px;
     margin-right: 24px;
     margin-left: 24px;
+    border-radius:25px;
+    cursor: pointer;
+}
+
+.hamburger-menu:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.hamburger-menu:active {
+    background-color: rgb(170, 170, 170);
+    transition: 12ms;
 }
 
 .left-section div {
